@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "115902229738",
+    "project_id": "avis-test-firebase",
+    "storage_bucket": "avis-test-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115902229738:android:5dd8f8afe006e8dfef3b93",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115902229738-6b1prtc6eb1pdg375l7o2gmloolms2i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPdvUnvDpzurLFt7FSzC5YWqyvs-tWf6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115902229738-6b1prtc6eb1pdg375l7o2gmloolms2i5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "115902229738-k9ke7squg3f7olqck0jhdokt7cqoukh3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
