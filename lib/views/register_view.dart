@@ -1,3 +1,4 @@
+import 'dart:developer' as devtools show log;
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -59,7 +60,7 @@ class _RegisterViewState extends State<RegisterView> {
                     .createUserWithEmailAndPassword(
                         email: email, password: password);
               } on FirebaseAuthException catch (e) {
-                print("Registration Error");
+                devtools.log("Registration Error");
               }
               // print(userCredential);
             },
