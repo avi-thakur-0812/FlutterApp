@@ -1,5 +1,6 @@
 // import 'dart:ffi';
 import 'dart:developer' as devtools show log;
+// import 'dart:js';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -26,6 +27,7 @@ void main() {
         loginRoute: (context) => const LoginView(),
         registerRoute: (context) => const RegisterView(),
         notesRoute: (context) => const NotesView(),
+        verifyRoute: (context) => const VerifyEmail(),
       },
     ),
   );
